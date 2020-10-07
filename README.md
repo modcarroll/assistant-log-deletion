@@ -15,3 +15,5 @@ If you assign your own `customer_id` with conversations, then in the next to las
 - In Section 1.4 find this line of code: `removeDF = allLogsDF[allLogsDF['input.text'].str.contains("1999")]`
 - Replace `1999` with the string that you would like to delete the conversations from
 - Run all of the cells up until the last cell. Once you read the warning and are comfortable deleting conversations associated with the listed customer IDs, run the last cell
+
+**Inspired by [Preeth's Watson Assistant metrics notebook](https://github.com/preethm/watson-assistant-metrics-notebook/)**
