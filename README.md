@@ -1,7 +1,7 @@
 # Watson Assistant Log Deletion
 This notebook enables you to search WA logs for specific phrases then delete all logs associated with the user. This script was specifically created for the Web Chat integration, which assumes that the `user_id` is equal to the `customer_id`.
 
-If you assign your own `customer_id` with conversations, then in the next to last cell, replace `metadata.user_id` with `metadata.customer_id`
+If you assign your own `customer_id` with conversations, then you should replace `metadata.user_id` with `metadata.customer_id` in the next to last cell.
 
 **Directions**
 - Import this notebook into your Watson Studio instance
